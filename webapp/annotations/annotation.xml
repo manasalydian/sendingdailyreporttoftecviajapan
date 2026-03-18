@@ -7,9 +7,12 @@
     </edmx:Reference>
     <edmx:DataServices>
         <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">
-            <Annotations Target="cds_zs4toftecedi_poreport.ZC_S4TOFTECEDI_POREPORTType">
+            <!-- <Annotations Target="cds_zs4toftecedi_poreport.ZC_S4TOFTECEDI_BPVREPORT_V1Type">
                 <Annotation Term="UI.SelectionFields">
                     <Collection>
+                        <PropertyPath>PurchaseOrder</PropertyPath>
+                        <PropertyPath>LastChangeDateTime</PropertyPath>
+                        <PropertyPath>PurchaseOrderItem</PropertyPath>
                         <PropertyPath>SupplierNumber</PropertyPath>
                         <PropertyPath>ItemNumber</PropertyPath>
                         <PropertyPath>PurchasingOrganization</PropertyPath>
@@ -270,7 +273,7 @@
                         </Record>
                     </Collection>
                 </Annotation>
-            </Annotations>
+            </Annotations> -->
         </Schema>
     </edmx:DataServices>
 </edmx:Edmx>

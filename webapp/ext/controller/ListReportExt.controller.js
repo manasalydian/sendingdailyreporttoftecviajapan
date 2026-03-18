@@ -5,7 +5,7 @@ sap.ui.define([
 ], function (Filter, SmartFilterBar, ComboBox) {
     "use strict";
     return {
-        getCustomAppStateDataExtension: function (oCustomData) {
+         getCustomAppStateDataExtension: function (oCustomData) {
             //the content of the custom field will be stored in the app state, so that it can be restored later, for example after a back navigation.
             //The developer has to ensure that the content of the field is stored in the object that is passed to this method.
             if (oCustomData) {
@@ -85,7 +85,7 @@ sap.ui.define([
                 oBindingParams.filters.push(
                     new sap.ui.model.Filter({
                         filters: aFilters,
-                        and: false // OR condition
+                        and: true // OR condition
                     })
                 );
             }

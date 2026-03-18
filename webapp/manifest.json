@@ -132,7 +132,7 @@
                 },
                 "sap.ui.viewExtensions": {
                     "sap.suite.ui.generic.template.ListReport.view.ListReport": {
-                        "SmartFilterBarControlConfigurationExtension|ZC_S4TOFTECEDI_POREPORT": {
+                        "SmartFilterBarControlConfigurationExtension|ZC_S4TOFTECEDI_BPVREPORT_V1": {
                             "className": "sap.ui.core.Fragment",
                             "fragmentName": "sendingdailyreporttoftecviajapan.ext.fragment.PurchaseOrdDateVH",
                             "type": "XML"
@@ -147,12 +147,12 @@
         "settings": {
             "forceGlobalRefresh": false,
             "objectPageHeaderType": "Dynamic",
-            "considerAnalyticalParameters": true,
+            "considerAnalyticalParameters": false,
             "showDraftToggle": false
         },
         "pages": {
-            "ListReport|ZC_S4TOFTECEDI_POREPORT": {
-                "entitySet": "ZC_S4TOFTECEDI_POREPORT",
+            "ListReport|ZC_S4TOFTECEDI_BPVREPORT_V1": {
+                "entitySet": "ZC_S4TOFTECEDI_BPVREPORT_V1",
                 "component": {
                     "name": "sap.suite.ui.generic.template.ListReport",
                     "list": true,
@@ -171,8 +171,8 @@
                     }
                 },
                 "pages": {
-                    "ObjectPage|ZC_S4TOFTECEDI_POREPORT": {
-                        "entitySet": "ZC_S4TOFTECEDI_POREPORT",
+                    "ObjectPage|ZC_S4TOFTECEDI_BPVREPORT_V1": {
+                        "entitySet": "ZC_S4TOFTECEDI_BPVREPORT_V1",
                         "defaultLayoutTypeIfExternalNavigation": "MidColumnFullScreen",
                         "component": {
                             "name": "sap.suite.ui.generic.template.ObjectPage"
